@@ -6,17 +6,26 @@
 }
 
 body {
-  font-family: 'mplus-1p-light', sans-serif;
+  font-family: 'Open Sans', 'mplus-1p-light', sans-serif;
   font-size: 15px;
   font-style: normal;
   font-variant: normal;
-  font-weight: normal;
+  font-weight: 100;
   line-height: 1.5;
+}
+
+.jumbotron {
+  font-family: "Quicksand", 'mplus-1p-light', sans-serif;
 }
 
 h1 {
   font-family: 'mplus-1p-light', sans-serif; 
   font-size: 28px;
+  font-weight: 100;
+}
+
+hr {
+  border-top: 1px solid $border-color
 }
 
 .link {
@@ -25,12 +34,12 @@ h1 {
 }
 
 a:hover {
-  color: $secondary-color;
   text-decoration: underline;
 }
 
 .navbar-inverse .nav>li>a {
   color: $secondary-color;
+  font-weight: 100;
 }
 
 .navbar-inverse .nav > li > a:hover,
@@ -58,7 +67,7 @@ background-color: transparent;
   border-width: 1px 1px 1px 1px;
   border-color: $secondary-color;
   padding: 3px 3px;
-  margin: 1px 1px;
+  margin: 1px 0px;
 }
 
 a>.badge {
@@ -68,4 +77,8 @@ a>.badge {
 a:hover > .badge {
   color: $bg-color;
   background-color: $secondary-color;
+}
+
+footer a {
+  font-weight: 100;
 }
