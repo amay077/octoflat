@@ -18,6 +18,10 @@ body {
   font-family: "Quicksand", 'mplus-1p-light', sans-serif;
 }
 
+.jumbotron:after {
+  content: normal;
+}
+
 h1 {
   font-family: 'mplus-1p-light', sans-serif; 
   font-size: 28px;
@@ -95,6 +99,11 @@ article blockquote {
 article blockquote p:before,
 article blockquote p:after {
  font-family: 'Quicksand';  
+}
+
+.social-sharing {
+  float: left !important;
+
 }
 
 footer a {
